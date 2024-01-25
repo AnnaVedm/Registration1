@@ -90,6 +90,20 @@
 				</TextBox>		
 			</StackPanel>	
 
+			<Border Grid.Row="4" Grid.Column="1">
+				<Button Width="335"
+						Height="35"
+						CornerRadius="10"
+						Background="#207be3"
+						Margin="0 0 0 0">
+					<TextBlock HorizontalAlignment="Center"
+							   VerticalAlignment="Center"
+							   Foreground="White">
+						Sign up
+					</TextBlock>
+				</Button>
+			</Border>
+
 			<Border  Grid.Row="4" Grid.Column="1">
 				<TextBlock HorizontalAlignment="Right"
 						   VerticalAlignment="Center"
@@ -98,20 +112,6 @@
 						   Foreground="White">
 					➔
 				</TextBlock>
-			</Border>
-
-			<Border Grid.Row="4" Grid.Column="1">
-				<Button Width="335"
-						Height="35"
-						CornerRadius="10"
-						Background="#207be3"
-						Margin="0 0 0 10">
-					<TextBlock HorizontalAlignment="Center"
-							   VerticalAlignment="Center"
-							   Foreground="White">
-						Sign up
-					</TextBlock>
-				</Button>
 			</Border>
 
 			<Border Grid.Row="5" Grid.Column="1"
